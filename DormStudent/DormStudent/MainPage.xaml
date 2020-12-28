@@ -1,0 +1,23 @@
+﻿<Window x:Class="DormStudent.MainPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DormStudent"
+        mc:Ignorable="d"
+        Title="MainPage" Height="411.6" Width="643.2">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="163*"/>
+            <ColumnDefinition Width="336*"/>
+            <ColumnDefinition Width="163*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="学生信息" HorizontalAlignment="Left" Margin="85,143,0,0" VerticalAlignment="Top" Width="149" Height="58" FontSize="20" Grid.ColumnSpan="2" Click="onStuInfro"/>
+        <Button Content="水卡信息" HorizontalAlignment="Left" Margin="85,249,0,0" VerticalAlignment="Top" Width="149" Height="58" FontSize="20" Grid.ColumnSpan="2" Click="onStuWater"/>
+        <Button Content="报修记录" HorizontalAlignment="Left" Margin="219.8,143,0,0" VerticalAlignment="Top" Width="149" Height="58" FontSize="20" Grid.Column="1" Grid.ColumnSpan="2" Click="OnStuRepair"/>
+        <Button Content="离寝返寝记录" HorizontalAlignment="Left" Margin="219.8,249,0,0" VerticalAlignment="Top" Width="149" Height="58" FontSize="20" Grid.Column="1" Grid.ColumnSpan="2" Click="OnStuLF"/>
+        <Button Grid.ColumnSpan="2" Content="退出系统" Grid.Column="1" HorizontalAlignment="Left" Margin="296.2,338,0,0" VerticalAlignment="Top" Width="131" Height="34" FontSize="16" Click="CloseMain"/>
+        <Label Content="学生宿舍管理系统" HorizontalAlignment="Left" Margin="0,32,-0.2,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="637" Height="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24"/>
+
+    </Grid>
+</Window>

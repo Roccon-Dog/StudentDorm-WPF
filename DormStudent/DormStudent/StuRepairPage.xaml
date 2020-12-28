@@ -1,0 +1,14 @@
+﻿<Window x:Class="DormStudent.StuRepairPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DormStudent"
+        mc:Ignorable="d"
+        Title="StuRepairPage" Height="450" Width="592.017">
+    <Grid>
+        <DataGrid Name="RepairData" HorizontalAlignment="Left" Height="336" Margin="0,84,-0.4,0" VerticalAlignment="Top" Width="586"/>
+        <Label Content="报修记录" HorizontalAlignment="Left" Margin="0,0,-0.4,0" VerticalAlignment="Top" Height="79" Width="586" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="48"/>
+
+    </Grid>
+</Window>
